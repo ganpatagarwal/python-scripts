@@ -1,0 +1,1 @@
+C:\Python27\python.exe "C:\scripts\test\Birthday-reminder\send-mail.py"
