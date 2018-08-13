@@ -1,0 +1,23 @@
+Ixchariot endpoint integration with OpenStack
+
+Step 1: Edit config.ini file
+
+Config.ini is the entry point for all the functional scripts.
+Please update the values in different sections as per your cloud.
+
+
+
+Step 2: Run the functional script
+
+Here are the functional scripts, which we can use
+
+create_vm.py
+    Create VM(s) as per the details saved in config.ini file.
+
+get_console_logs.py
+    Saves the boot time console log of VM(s) created by create_vm.py file.
+    Uses the “output_file” parameter to get the list of created VM(s)
+
+delete_vm.py
+    Deletes the VM(s) created by create_vm.py file.
+    Uses the “output_file” parameter to get the list of created VM(s)

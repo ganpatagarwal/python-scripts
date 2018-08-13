@@ -1,5 +1,5 @@
 import unittest,mock
-from mock_test import method,Target
+from mock_test import Target
 
 class MethodTestCase(unittest.TestCase):
 
@@ -11,4 +11,3 @@ class MethodTestCase(unittest.TestCase):
 
 if __name__ == "__main__":
 	unittest.main()
-

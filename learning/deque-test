@@ -1,0 +1,13 @@
+from collections import deque
+
+dq = deque('abc')
+dq.append('d')
+dq.appendleft('z')
+dq.extend('efg')
+dq.extendleft('yxw')
+dq.pop()
+dq.popleft()
+dq.rotate(2)
+dq.rotate(-2)
+
+print(dq)
